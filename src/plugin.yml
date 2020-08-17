@@ -1,0 +1,15 @@
+main: be.alexandre01.octosia.octochat.Plugin
+author: Alexandre01
+name: OctoChat
+version: 1.0
+commands:
+  msg:
+    aliases: [m,emp, mp, t]
+  r:
+  octochatspy:
+    aliases: [octospy,ocs]
+    permission: octochat.see
+  allcmd:
+    permission: allcmd.use
+  randomcmd:
+    permission: randomcmd.use
